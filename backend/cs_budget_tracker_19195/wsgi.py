@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cs_budget_tracker_19195.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cs_budget_tracker_19195.settings")
 
 application = get_wsgi_application()
